@@ -1,0 +1,70 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v1/autocomplete?input=/Lon"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "properties": [
+        {
+          "properties": [{
+            "code": "LONBAN",
+            "brand": "HUB",
+            "suggestion": "hub London City Bank",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-0.089231, 51.511966]
+            }
+          }, {
+            "code": "LONKIN",
+            "brand": "HUB",
+            "suggestion": "hub London Kings Cross",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-0.122153, 51.533674]
+            }
+          }, {
+            "code": "BARPTI",
+            "brand": "PI",
+            "suggestion": "London Barking",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [0.0715156, 51.535072]
+            }
+          }, {
+            "code": "BECWIN",
+            "brand": "PI",
+            "suggestion": "London Beckton",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [0.060897, 51.516141]
+            }
+          }, {
+            "code": "LONHAC",
+            "brand": "PI",
+            "suggestion": "London Hackney",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-0.073741, 51.546388]
+            }
+          }],
+          "managedPlaces": [],
+          "places": [{
+            "suggestion": "London, UK",
+            "placeId": "ChIJdd4hrwug2EcRmSrV3Vo6llI"
+          }, {
+            "suggestion": "UK College Of English, Oxford Street, London, UK",
+            "placeId": "ChIJgVVw3iwbdkgRP39D_b1BzOI"
+          }, {
+            "suggestion": "UK House, Great Titchfield Street, London, UK",
+            "placeId": "ChIJP_WrwCobdkgRofhcSvwhwmQ"
+          }]
+        }
+      ]
+    }
+  }
+}
